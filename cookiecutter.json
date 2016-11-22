@@ -1,0 +1,10 @@
+{
+    "project_name": "Unnamed project",
+    "project_domain": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}.com",
+    "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+    "description": "There is no description yet",
+    "version": "0.1.0",
+    "database": ["Mysql", "postgresql", "None"],
+    "bootstrap_version":"3.3.7",
+    "jquery_version": "2.2.4"
+}

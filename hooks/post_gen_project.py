@@ -60,7 +60,7 @@ def make_secret_key(project_directory):
     # Determine the local_setting_file_location
     local_setting = os.path.join(
         project_directory,
-        '{{cookiecutter.project_name}}/config/settings/local.py'
+        '{{cookiecutter.project_name}}/config/settings/common.py'
     )
 
     # local.py settings file
